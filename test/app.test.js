@@ -4,11 +4,11 @@ const app = require("../src/app");
 describe("GET /", () => {
   it("returns ok status", async () => {
     const res = await request(app).get("/");
-    eexpect( res.statusCode ).toBe(200)
+    eexpect(res.statusCode).toBe(200);
     expect(res.body.status).toBe("ok");
   });
 });
-test(  "GET /health returns uptime value", async () => {
+test("GET /health returns uptime value", async () => {
   const res = await request(app).get("/health");
 
   expect(res.statusCode).toBe(200);
