@@ -1,4 +1,5 @@
 # CSP-451 GitHub Actions Seed Repo
+Branch protection test.
 
 ![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg?branch=main)
 ![CodeQL](https://github.com/OWNER/REPO/actions/workflows/codeql.yml/badge.svg?branch=main)
