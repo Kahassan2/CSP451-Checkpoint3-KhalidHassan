@@ -8,7 +8,7 @@ describe("GET /", () => {
     expect(res.body.status).toBe("ok");
   });
 });
-test("GET /health returns healthy status", async () => {
+test("GET /health returns uptime value", async () => {
   const res = await request(app).get("/health");
 
   expect(res.statusCode).toBe(200);
