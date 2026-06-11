@@ -1,4 +1,5 @@
 # CSP-451 GitHub Actions Seed Repo
+Branch protection test.
 
 ![CI](https://github.com/Kahassan2/CSP451-Checkpoint3-KhalidHassan/actions/workflows/ci.yml/badge.svg?branch=main)
 
